@@ -3,9 +3,15 @@ const form = document.querySelector("#obtn");
 const nameCity = document.querySelector("#city");
 const nameCountry = document.querySelector("#country");
 
-form.addEventListener("submit",(e) =>{
+form.addEventListener("submit", (e) =>{
     e.preventDefault();
-    console.log(nameCity.value);
-    console.log(nameCountry.value)
+    if(nameCity.value === "" || nameCountry.value === "" ){
+        mostrarError("Los campos son obligatorios!");
+    }
+    // console.log(nameCity.value);
+    // console.log(nameCountry.value);
 });
 
+function mostrarError(mensaje){
+    console.log(mensaje);
+}
