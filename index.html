@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheater</title>
+    <link rel="icon" href="icon/nube.png">
+    <script src="https://kit.fontawesome.com/cf203cb410.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Css/style.css">
+    <script src="Javascript/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <section class="text-section" id="busca">
+                <h2>Buscador de clima</h2>
+            </section>
+
+            <div class="contenedor-clima" id="clima">
+                <p>Clima en Buenos aires</p>
+                <i class="fa fa-cloud"></i>
+                <h1>23°C</h1>
+                <p>Max 23.6°C</p>
+                <p>Min 21.10°C</p>
+            </div>
+
+            <form action="" method="post" id="obtn" class="obtn-wheather">
+                <select name="" id="country">
+                    <option disabled selected value= "" >Select the country</option>
+                    <option value="CO">Colombia</option>
+                    <option value="MX">Mexico</option>
+                    <option value="ES">España</option>
+                    <option value="US">Usa</option>
+                    <option value="CR">Costa rica</option>
+                    <option value="AR">Argentina</option>
+                </select>
+                <input type="text" name="city" id="city" placeholder="Choose your city">
+                <input type="submit" name="" id="button" value="Get Weather" class="button">
+            </form>
+        </div>
+    </header>
+
+    
+</body>
+</html>

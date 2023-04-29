@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;   
+}
+
+.container{
+    width: 65vh;
+    height: 65vh;
+    margin: 0 auto;
+    margin-top: 90px;
+    background-color: #536883;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-section{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.contenedor-clima{
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+.contenedor-clima h1{
+    font-size: 40px;
+}
+.contenedor-clima p{
+    font-size: 14px;
+}
+
+.obtn-wheather{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20px;
+    gap: 10px;
+}
+.obtn-wheather input{
+    font-size: 13px;
+    padding:6px;
+}
+
+select{
+    padding: 6px;
+}
+
+.button{
+    color: #fff;
+   padding: 1px 20px;
+   font-size: 16px;
+   background-color: #11C095;
+   border: none;
+   border-radius: 2px;
+   cursor: pointer;
+   transition: all .5s;
+}
+
+.button:hover{
+    scale: 1.1;
+}
