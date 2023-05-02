@@ -28,8 +28,14 @@ body{
     font-size: 18px;
 }
 
+.text-section span{
+    font-size: 14px;
+}
+
 .contenedor-clima{
     color: #fff;
+    width:65vh;
+    align-items: center;
     text-align: center;
     margin-top: 10px;
 }
@@ -40,6 +46,10 @@ body{
     font-size: 14px;
 }
 
+.contenedor-clima img{
+    width: 50px;
+    margin: 0;
+}
 .obtn-wheather{
     width: 350px;
     display: flex;
